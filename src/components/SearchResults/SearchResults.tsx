@@ -36,7 +36,7 @@ export function SearchResults() {
                         ? (users.map((user: object) => (
                             <UserCard {...user}/>
                         )))
-                        : (<div>ничего нет</div>)
+                        : (<div>No users with such name</div>)
                 )}
         </div>
     );
